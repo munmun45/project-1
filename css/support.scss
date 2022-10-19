@@ -1,0 +1,12 @@
+@supports not (not(width: -webkit-fill-available())) {
+    .header , .fotter ,.ft_img ,.map_group ,.box_5  ,.apart_image_2 ,.title_main ,.box_1 ,.shwimmen ,.line_3 ,.line_2 ,.line ,.low_btn, .fill_sommer ,.fill_img  ,.image_slider_main_con , .image_slider_con , .apart_image, .apart_con, .dot_con , .slideshow-container , .more_option_mob , .mob_nav ul li , .mob_nav ul ,.mob_nav , .nav_con , .sub_btn li{
+        width: 100%;
+    }
+    .pc_img , .pc_nav , .pc_nav ul {
+        height: 100%;
+    }
+    .wrap ,.slider_text ,.shwimmen_con, .img_con img , .slider_img , .wrap_2{
+        width: 100%;
+        height: 100%;
+    }
+}
