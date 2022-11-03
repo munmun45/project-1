@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <div class="wrap_2">
+
+            <div class="nav_con">
+
+                <img class="pc_img" src="./images/logo.png" alt="">
+
+                <img onclick="mob_nav_snow()" class="mob_nav_btn" src="./images/menu.png" alt="">
+
+                <nav class="pc_nav">
+
+                    <ul>
+                        <li class="space_left_nav"><a href="#">Home</a></li>
+                        <li class="space_left_nav"><a href="#">Apartment</a>
+
+                            <ol class="sub_btn">
+
+                                <br>
+
+                                <li><a href="#">APARTMENT 1</a></li>
+                                <li><a href="#">APARTMENT 2</a></li>
+
+
+                            </ol>
+
+                        </li>
+                        <li class="space_left_nav"><a href="#">Good To Know</a>
+
+                            <ol class="sub_btn">
+
+                                <br>
+
+                                <li>
+                                    <a href="#">BEI UNS IM WINTER </a>
+
+                                    <ul class="sub_but_con">
+                                        <li> <a href="#">LANGLAUFEN</a> </li>
+                                        <li> <a href="#">SKIFAHREN </a> </li>
+                                        <li> <a href="#">SKITOUREN </a> </li>
+                                        <li> <a href="#">MEHR </a> </li>
+                                    </ul>
+
+                                </li>
+                                <li>
+                                    <a href="#">BEI UNS IM SOMMER </a>
+
+                                    <ul class="sub_but_con">
+                                        <li> <a href="#">WANDERN </a> </li>
+                                        <li> <a href="#">SCHWIMMTEN </a> </li>
+                                        <li> <a href="#">RADFAHREN </a> </li>
+                                        <li> <a href="#">TRAILRUNNING </a> </li>
+                                        <li> <a href="#">MEHR VOM SOMMER </a> </li>
+                                    </ul>
+
+
+
+                                </li>
+
+
+                            </ol>
+
+                        </li>
+                        <li><a href="#"> Contact </a></li>
+                    </ul>
+
+                </nav>
+
+                <nav class="mob_nav">
+
+                    <ul>
+
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="javascript:mov_nav(0 , '100px')">APARTMENT </a> <img onclick="mov_nav(0 , '100px')"
+                                class="mob_more_option_btn" class="arro_rot"
+                                src="./images/arrow-down-sign-to-navigate.png" alt=""> </li>
+                        <!-- <li><a href="#">APARTMENT </a> <img class="mob_more_option_btn" src="" alt=""> </li> -->
+
+                        <ol class="more_option_mob ">
+
+                            <li><a href="#">APARTMENT 1</a></li>
+                            <li><a href="#">APARTMENT 2</a></li>
+
+
+                        </ol>
+
+
+
+                        <li><a href="javascript:mov_nav(1 , '250px')">GOOD TO KNOW</a> <img
+                                onclick="mov_nav(1 , '250px')" class="mob_more_option_btn" class="arro_rot"
+                                src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
+
+                        <ol class="more_option_mob">
+
+                            <li><a href="javascript:mov_nav(2 , '150px' )">BEI UNS IM WINTER </a> <img
+                                    onclick="mov_nav(2 , '150px' )" class="mob_more_option_btn" class="arro_rot"
+                                    src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
+
+                            <ol class="more_option_mob">
+
+                                <li> <a href="#">LANGLAUFEN</a> </li>
+                                <li> <a href="#">SKIFAHREN </a> </li>
+                                <li> <a href="#">SKITOUREN </a> </li>
+                                <li> <a href="#">MEHR </a> </li>
+
+
+                            </ol>
+
+                            <li><a href="javascript:mov_nav(3 , '150px' )">BEI UNS IM SOMMER </a> <img
+                                    onclick="mov_nav(3 , '150px' )" class="mob_more_option_btn" class="arro_rot"
+                                    src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
+
+                            <ol class="more_option_mob">
+
+                                <li> <a href="#">WANDERN </a> </li>
+                                <li> <a href="#">SCHWIMMTEN </a> </li>
+                                <li> <a href="#">RADFAHREN </a> </li>
+                                <li> <a href="#">TRAILRUNNING </a> </li>
+                                <li> <a href="#">MEHR VOM SOMMER </a> </li>
+
+
+                            </ol>
+
+
+                        </ol>
+
+
+
+
+                        <li><a href="#">CONTACT</a></li>
+
+
+                    </ul>
+
+                </nav>
+
+
+            </div>
+
+
+        </div>
+
+
+    </header>
+
+
+    <!-- pop image start -->
+
+    <div id="pop_img" class="pop_img">
+
+        <img onclick="close_pop()" class="close_popup_btn" src="./images/delete.png" alt="">
+
+        <img id="fill_img_pop" class="fill_img_pop" src="" alt="">
+
+    </div>
+
+    <!-- pop image end -->
+
+
+
+
+
+
+    <!-- slider start -->
+
+
+
+
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="./images/slider/slider-1.jpg" class="slider_img">
+        </div>
+        <div class="mySlides fade">
+            <img src="./images/slider/slider-2.jpg" class="slider_img">
+        </div>
+        <div class="mySlides fade">
+            <img src="./images/slider/slider-3.jpg" class="slider_img">
+        </div>
+        <div class="mySlides fade">
+            <img src="./images/slider/slider-4.jpg" class="slider_img">
+        </div>
+
+
+
+
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="dot_con" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+
+
+        <div class="slider_text">
+
+            <div class="wrap contant_slider">
+
+                <h1 class="_heading">ZEIT FUR URLAUB. </h1>
+
+
+                <button class="red_btn_2"> MEHR ERFAHREN </button>
+
+                <br>
+                <br>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- slider end -->
+
+    <!-- Apartment start -->
+
+
+    <section class="wrap space_top">
+
+        <h2 class="main_heading">Apartment 1</h2>
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con border">
+                <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Voluptatem repellendus dolorum odit.</p>
+
+                <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Voluptatem repellendus dolorum odit.</p>
+
+            </div>
+
+
+
+
+
+            <div class="aprt_sub_con border">
+                <img class="apart_image" src="./images/11.png" alt="">
+            </div>
+
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="image_slider_main_con">
+
+            <div class="image_slider_con" id="scroll_image_2">
+
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/skione.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommerfunf.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/header.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommervier.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/slider_2.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/slider_1.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                </div>
+
+
+
+
+
+            </div>
+
+            <a class="prev" onclick="scroll_images_js_2()">❮</a>
+            <a class="next" onclick="scroll_images_js()">❯</a>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Apartment end -->
+
+
+    <!-- fill image start -->
+
+    <section class="fill_img space_top" style="background-image: url('./images/slider_2.jpg');">
+
+
+    </section>
+
+    <!-- fill image end -->
+
+
+
+
+
+
+
+
+    <!-- Apartment start -->
+
+
+    <section class="wrap space_top">
+
+        <h2 class="main_heading">Apartment 2</h2>
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con border">
+                <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Voluptatem repellendus dolorum odit.</p>
+
+                <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Voluptatem repellendus dolorum odit.</p>
+
+            </div>
+
+
+
+
+
+            <div class="aprt_sub_con border">
+                <img class="apart_image" src="./images/11.png" alt="">
+            </div>
+
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <div class="image_slider_main_con">
+
+            <div class="image_slider_con" id="scroll_image">
+
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/skione.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommerfunf.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/header.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommervier.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/slider_2.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/slider_1.jpg" alt="">
+                </div>
+                <div class="img_con">
+                    <img onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                </div>
+
+
+
+
+
+            </div>
+
+            <a class="prev" onclick="scroll_images_js_2()">❮</a>
+            <a class="next" onclick="scroll_images_js()">❯</a>
+
+        </div>
+
+
+
+    </section>
+
+
+
+    <!-- Apartment end -->
+
+
+
+
+
+
+    <!-- fill sommer start -->
+
+    <section class="fill_sommer space_top">
+
+        <div class="wrap">
+
+            <h2 class="main_heading_4 white">Erlebe den WINTER bei uns...</h2>
+
+
+            <div class="apart_con " style="margin-top: 30px;">
+
+                <p class="para_3 white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Voluptatem repellendus dolorum odit.
+                </p>
+
+                <p class="para_3 white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, labore
+                    provident iusto odio distinctio officiis molestiae architecto sit omnis eos ab dolor a porro animi
+                    expedita vel doloremque asperiores ut! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Aliquam libero, alias, dolores iure debitis ea, sed illum ad deserunt exercitationem temporibus quos
+                    eveniet cum repudiandae ratione quas nesciunt placeat culpa.
+                </p>
+
+
+
+
+            </div>
+
+            <br>
+            <br>
+
+            <div class="low_btn">
+
+                <h3 class=" sub_harding  white">WAS GIBT ES ZUM ERLEBEN ?</h3>
+
+                <button class="red_btn"> MEHR ERFAHREN </button>
+
+            </div>
+
+
+
+
+        </div>
+
+
+    </section>
+
+    <!-- fill image end -->
+
+
+    <!-- div with map start -->
+
+    <section class="wrap map_div_con">
+
+        <h2 class="main_heading_2 green_10">LANGLAUFEN - LOIPENGLUCK DIREKT VORM HAUS </h2>
+
+        <div class="line"></div>
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+            <p class="para ">Langlaufen gehort zum schonsten was man im Winter machen kann. <br> Nur wenige Schritte von
+                unserem Haus entfernt finden Sie die nachste and bestens praparierte Langlaufloipe. </p>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+                <h3 class="map_title green_10 ">Leo Neumayer Loipe Plankenau</h3>
+
+
+                <p class="map_title_2">Strecke: 8,1 km</p>
+                <p class="map_title_2">Dauer: 2:00 h</p>
+                <p class="map_title_2">Aufstieg: 124 hm</p>
+                <p class="map_title_2">Absteig: 124 hm</p>
+                <p class="map_title_2">Héchster Punkt: 604 m</p>
+                <p class="map_title_2">Tiefster Punkt: 569 m</p>
+
+                <p class="para_3 ">
+
+                    Die Plankenauloipe (Skating & Klassisch) ist ca. 8 km lang und zum Teil wird sie auch technisch
+                    beschneit. Vom Schwierigkeitsgrad ist die Loipe als leicht bis mittel einzustufen.
+
+                </p>
+
+
+                <!-- <p class="para_3 ">
+
+                    Einstiegsstelle: Ortsteil Plankenau / Liechtensteinklammstraße (direkt vor unserem Haus)
+
+                </p> -->
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/mp-1.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+
+
+            <!-- <p class="para_3 ">
+
+                Die Plankenauloipe (Skating & Klassisch) ist ca. 8 km lang und zum Teil wird sie auch technisch
+                beschneit. Vom Schwierigkeitsgrad ist die Loipe als leicht bis mittel einzustufen.
+
+            </p> -->
+
+
+
+            <p class="para_3 ">
+
+                Einstiegsstelle: Ortsteil Plankenau / Liechtensteinklammstraße (direkt vor unserem Haus)
+
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+                <h3 class="map_title green_10 ">Loipe Alpendorf</h3>
+
+
+                <p class="map_title_2">Strecke: 3,5 km</p>
+                <p class="map_title_2">Dauer: 1:00 h</p>
+                <p class="map_title_2">Aufstieg: 92 hm</p>
+                <p class="map_title_2">Absteig: 92 hm</p>
+                <p class="map_title_2">Héchster Punkt: 862 m</p>
+                <p class="map_title_2">Tiefster Punkt: 822 m</p>
+
+
+
+                <p class="para_3 ">
+
+                    Die Loipe Alpendorf beginnt etwas oberhalb des Ortsteiles im Bereich Abzweigung Ötzmooshof. Die
+                    Loipe wird sowohl klassisch als auch skating gespurt.
+
+                </p>
+
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/mp-2.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+
+
+
+            <p class="para_3 ">
+
+                Die Loipe Alpendorf beginnt etwas oberhalb des Ortsteiles im Bereich Abzweigung Ötzmooshof. Die Loipe
+                wird sowohl klassisch als auch skating gespurt.
+
+                <br>
+                <br>
+
+                Einstiegsstelle: Ortsteil Alpendorf, Pension Ötzmooshof
+
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+                <h3 class="map_title green_10 ">Höhenloipe Obergaßalm</h3>
+
+
+                <p class="map_title_2">Strecke: 2,5 km</p>
+                <p class="map_title_2">Dauer: 0:45 h</p>
+                <p class="map_title_2">Aufstieg: 83 hm</p>
+                <p class="map_title_2">Absteig: 83 hm</p>
+                <p class="map_title_2">Héchster Punkt: 1566 m</p>
+                <p class="map_title_2">Tiefster Punkt: 1530 m</p>
+
+
+
+
+
+
+                <p class="para_3 ">
+
+                    Die Alpendorf Höhenloipe (Skating & Klassisch) liegt auf ca. 1.500 Meter Seehöhe und ist nur mit der
+                    Alpendorf Gondelbahn erreichbar.
+
+                </p>
+
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/mp-3.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+
+
+
+            <p class="para_3 ">
+
+                Diese Loipe ist ca. 4-6 min. mit dem Bus von unserem Haus entfernt.
+
+                <br>
+                <br>
+
+                Einstiegsstelle: Bergstation der Alpendorf Bergbahnen
+
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+    <!-- div with map end -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- fill image start -->
+
+    <section class="fill_img space_top" style="background-image: url('./images/slider_1.jpg');">
+
+
+    </section>
+
+    <!-- fill image end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- shwimmen start -->
+
+
+
+    <section class="  ">
+
+        <div class="wrap map_div_con">
+
+            <h2 class="main_heading_2 green_10">SKIFAHREN | SNOWBOARDEN</h2>
+
+            <div class="line"></div>
+
+            <div class="apart_con border" style="margin-top: 30px;">
+
+                <p class="para ">
+
+                    Bei uns kommen alle Wintersportbegeisterten auf ihre Kosten. Das Skigebiet St. Johann / Snow Space
+                    Salzburg ist nur wenige Minuten mit dem kostenlosen Skibus entfernt.
+                    Sparen Sie sich so die Anreise mit dem privaten PKW und nutzen Sie das Angebot.
+
+
+                </p>
+
+                <h3 class="para green_10 "> Eine Bushaltestelle befindet sich unmittelbar vor unserem Haus.</h3>
+
+
+                <p class="para ">
+
+                    Bei ausreichender Schneelage ist die Skiabfahrt bis zu unserem Appartementhaus möglich!
+
+
+                </p>
+
+
+
+                <p class="para ">
+
+                    Am direkt in der Nahe liegenden Familienberg Hahnbaum finden Sie noch 7 km Pisten, ideal für
+                    Anfänger und Kinder. Ein besonderes Highlight ist der Gratis-Skilift für die Kinder.
+                    Über 400 WLAN-Hotspots in ganz Ski Amadé.
+
+
+
+                </p>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- shwimmen end -->
+
+
+
+    <section class="wrap">
+
+
+        <div class="image_3">
+
+
+            <img class="image_3_img" src="./images/sommerfunf.jpg" alt="">
+            <img class="image_3_img" src="./images/sommerfunf.jpg" alt="">
+            <img class="image_3_img" src="./images/sommerfunf.jpg" alt="">
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <section class="wrap map_div_con">
+
+        <h2 class="main_heading_2 green_10 ">SKITOUREN - UND SPEKTAKULARE ABFAHRTEN </h2>
+
+        <div class="line"></div>
+
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+
+
+                <p class="para_3 ">
+
+                    Skitouren werden immer beliebter. Lassen Sie den Alltag hinter sich and genieRen Sie die Ruhe auf
+                    dem Berg auf bestens markierte Routen!
+
+
+                    WAS GIBT ES ZUM ERLEBEN ?
+
+                </p>
+
+
+                <p class="para_3 ">
+
+                    Fur Skitourengeher ist St. Johann im Pongau der ideate Ausgangspunkt.
+
+                </p>
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2 border">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/f-1.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- fill image start -->
+
+    <section class="fill_img space_top" style="background-image: url('./images/slider_1.jpg');">
+
+        <div class="low_btn wrap" style="height: 100%;">
+
+            <h3 class=" sub_harding  white">BELIEBTE SKITOUREN</h3>
+
+            <button class="red_btn"> MEHR ERFAHREN </button>
+
+        </div>
+
+
+    </section>
+
+    <!-- fill image end -->
+
+
+
+
+
+
+
+
+
+    <section class="wrap map_div_con">
+
+        <h2 class="main_heading_2 green_10">SKITOUREN - MUSTERTEXT </h2>
+
+        <div class="line"></div>
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+                <h3 class="map_title green_10 ">Skiroute Hahnbaum Hauptroute</h3>
+
+
+                <p class="map_title_2">Strecke: 1,8 km</p>
+                <p class="map_title_2">Dauer: 1:30 h</p>
+                <p class="map_title_2">Aufstieg: 435 hm</p>
+                <p class="map_title_2">Absteig: 16 hm</p>
+                <p class="map_title_2">Héchster Punkt: 1101 m</p>
+                <p class="map_title_2">Tiefster Punkt: 683 m</p>
+
+
+
+
+
+                <p class="para_3 ">
+
+                    Die ausgewiesene Skitourenroute auf den St. Johanner Hausberg sind bei Einsteigern als auch
+                    Arrivierten sehr beliebt.
+
+                </p>
+
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/mp-3.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+
+
+
+
+
+            <p class="para_3 ">
+
+                Die Aufstiegs- und Abfahrtsrouten sind markiert und nachts gesichert, somit steht einem gefahrlosen
+                Tourenvergnügen nichts im Wege.
+
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+                <h3 class="map_title green_10 ">Skiroute Kreistenalm</h3>
+
+
+                <p class="map_title_2">Strecke: 2,2 km</p>
+                <p class="map_title_2">Dauer: 1:15 h</p>
+                <p class="map_title_2">Aufstieg: 488 hm</p>
+                <p class="map_title_2">Absteig: 1 hm</p>
+                <p class="map_title_2">Héchster Punkt: 1272 m</p>
+                <p class="map_title_2">Tiefster Punkt: 784 m</p>
+
+
+
+
+
+
+
+                <p class="para_3 ">
+
+                    Vom Alpendorf am Pistenrand bis zur Kreistenalm
+
+                </p>
+
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/mp-4.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+
+
+
+
+
+            <p class="para_3 ">
+
+                Vom Skitourenparkplatz Heizwerk im Alpendorf geht es am linken Pistenrand das erste Stück steil bergauf.
+                Dem Pistenrand folgend gelangt man in Sichtweite zur Hotelpension Sternhof. Hier verläuft die Route
+                entlang des beschilderten Wanderweges bzw. am linken Pistenrand Richtung Kreistenalm.
+
+
+            </p>
+
+
+            <p class="para_3 ">
+
+                Fortsetzung der Skitour bis zum Gernkogel ist möglich.
+
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+        <div class="apart_con">
+
+            <div class="aprt_sub_con_2 border" style="padding: 0px 0px;">
+
+
+                <h3 class="map_title green_10 ">Skiroute Gernkogel I</h3>
+
+
+                <p class="map_title_2">Strecke: 2,6 km</p>
+                <p class="map_title_2">Dauer: 1:45 h</p>
+                <p class="map_title_2">Aufstieg: 501 hm</p>
+                <p class="map_title_2">Absteig: 0 hm</p>
+                <p class="map_title_2">Héchster Punkt: 1773 m</p>
+                <p class="map_title_2">Tiefster Punkt: 1271 m</p>
+
+
+
+
+                <p class="para_3 ">
+
+                    Bei der Kreistenalm überquert man die Skipiste und geht links an der Bergstation Gernkogelbahn
+                    (leichtere Variante: rechts in den Wald) steil bergauf zum Güterweg Stegbach.
+
+                </p>
+
+
+
+
+            </div>
+
+
+            <div class="aprt_sub_con_2">
+
+                <img onclick="popup_image(src)" class="map_img" src="./images/map-2/mp-5.jpg" alt="">
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="apart_con border" style="margin-top: 30px;">
+
+
+
+
+
+
+            <p class="para_3 ">
+                Diesem folgt man rechts bis zum beschilderten Wanderweg "Kniebeisser", der links in den Wald führt. Der
+                sehr steile Weg führt durch den Wald auf eine Lichtung, unter der Gondelbahn durch und zieht sich rechts
+                über einen Rücken Richtung Obergaßalm.
+
+
+            </p>
+
+
+            <p class="para_3 ">
+
+                Die Route führt rechts entlang des Almrandes, wobei man ein kleines Stück bergab Richtung Tellerlift
+                abfährt. Der Lifttrasse folgend steigt man am rechten Pistenrand – vorbei an der kleinen
+                Hubertus-Kapelle – zum Gernkogel auf.
+
+            </p>
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <section class="  shwimmen " style="margin-top: 100px ;">
+
+        <div class="wrap shwimmen_con">
+
+            <h2 class="main_heading_3 white"> WINTERSPASS FUR GROSS & KLEIN </h2>
+
+
+
+            <br>
+
+
+            <h2 class="main_heading_2 white title_main">RODELN</h2>
+
+            <div class="apart_con m-0   m-33 border_3">
+
+                <div class="aprt_sub_con_2  padding_24 border_2" style="padding: 0px 0px; margin: 0px;">
+
+
+                    <p class="para_4 white"> Auf der Hahnbaum Naturrodelbahn in St. Johann können Sie wahlweise im
+                        Sonnenschein aber auch nachts mit Flutlicht auf der Rodel talwärts sausen.</p>
+
+
+                    <p class="para_4 white"> Die Länge der Bahn beträgt ca. 3,5 km und ist zu Fuß erreichbar.</p>
+
+                    <p class="para_4 white">
+                        Start: Hahnbaum (1100 m)
+                        <br>
+                        Ziel: Waldschwimmbad (650 m)
+                    </p>
+                    <p class="para_4 white">
+                        Die Rodelbahn kann kostenlos benutzt werden.
+                    </p>
+
+
+
+                </div>
+
+
+                <div class="aprt_sub_con_2 " style=" margin: 0px;">
+
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/map-2/p-1.jpg" alt="">
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+            <h2 class="main_heading_2 white title_main">WINTERWANDERN I SCHNEESCHUHWANDERN </h2>
+
+            <div class="apart_con m-0   m-33 border_3">
+
+                <div class="aprt_sub_con_2  padding_24 border_2" style="padding: 0px 0px; margin: 0px;">
+
+
+                    <p class="para_4 white"> Es gibt zahlreiche Winterwanderwege, die direkt am Haus vorbeifuhren.</p>
+
+
+                    <p class="para_4 white"> Fur alle, die die Stille der Natur suchen and Energie tanken wollen, ist
+                        Schneeschuhwandern eine
+                        ideate Alternative zum Skifahren. Auf Schneeschuhen konnen Sie unberlihrte Landschaften
+                        entdecken.
+                    </p>
+
+                    <p class="para_4 white"> Fur diejenigen, die abseits der betretenen Winterwanderwege gehen wollen,
+                        empfehlen wir eine
+                        gefuhrte Schneeschuhwanderung mit erfahrenen Guides.
+                    </p>
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="aprt_sub_con_2 " style=" margin: 0px;">
+
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/map-2/mp-7.jpg" alt="">
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <h2 class="main_heading_2 white title_main">EISLAUFEN </h2>
+
+            <div class="apart_con m-0   m-33 border_3">
+
+                <div class="aprt_sub_con_2  padding_24 border_2" style="padding: 0px 0px; margin: 0px;">
+
+
+                    <h6 class="para_4 white"> Eislaufen bei jedem Wetter!</h6>
+
+
+                    <p class="para_4 white">
+                        Im Stadtzentrum von St. Johann befindet sich eine Kunst-Eislaufplatz. Hier konnen Sie mit Ihren
+                        Schlittschuhen Ihre Runden drehen.
+                    </p>
+
+                    <p class="para_4 white">
+                        Schlittschuhe konnen selbstverstandlich auch vor Ort ausgeliehen werden.
+                    </p>
+                    <p class="para_4 white">
+                        Geoffnet:
+                    </p>
+                    <p class="para_4 white">
+                        Mitte November bis Mitte Februar — taglich 13:00-16:00 Uhr
+                    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </div>
+
+
+                <div class="aprt_sub_con_2 " style=" margin: 0px;">
+
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/map-2/p-2.jpg" alt="">
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <h2 class="main_heading_2 white title_main">KUTSCHENFAHRTEN </h2>
+
+            <div class="apart_con m-0   m-33 border_3">
+
+                <div class="aprt_sub_con_2  padding_24 border_2" style="padding: 0px 0px; margin: 0px;">
+
+
+                    <h6 class="para_4 white"> Ein unvergessliches Ertebnis... </h6>
+
+
+                    <p class="para_4 white">
+                        Es gibt nichts romantischeres als eine Pferdeschlittenfahrt durch tief verschneite Landschaften.
+                    </p>
+                    <p class="para_4 white">
+                        Voranmeldung erforderlich!
+                    </p>
+
+
+
+                </div>
+
+
+                <div class="aprt_sub_con_2 " style=" margin: 0px;">
+
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/map-2/p-3.jpg" alt="">
+
+                </div>
+
+            </div>
+
+
+
+
+            <h2 class="main_heading_2 white title_main">HUNDESCHLITTENFAHRTEN </h2>
+
+            <div class="apart_con m-0   m-33 border_3">
+
+                <div class="aprt_sub_con_2  padding_24 border_2" style="padding: 0px 0px; margin: 0px;">
+
+
+                    <h6 class="para_4 white"> Husky-Ertebnis mit der Famine!! </h6>
+
+
+                    <p class="para_4 white">
+                        Wer immer eine Hundeschlittenfahrt machen wollte — hat jetzt die einmatige Moglichkeit es zu
+                        machen.
+                    </p>
+                    <p class="para_4 white">
+                        Der mehrfache Europa- und Weltmeister Sepp Brugger stellt Ihnen seine Hunde vor und nimmt Sie
+                        mit
+                        auf eine unvergessliche Fahrt..
+                    </p>
+                    <p class="para_4 white">
+                        Von Mitte Dezember bis Mitte Februar in Nankenau (in unmittelbarer Niahe!) von 10:00 — 15:00 Uhr
+                    </p>
+
+
+
+                </div>
+
+
+                <div class="aprt_sub_con_2 " style=" margin: 0px;">
+
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/map-2/p-4.jpg" alt="">
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- contact` -->
+
+
+    <div class="wrap shwimmen_con">
+
+
+
+        <h2 class="main_heading_2 green_10 title_main">Contact</h2>
+
+        <div class="apart_con" style="margin-top: 10px;">
+
+            <div style="align-items: flex-start;" class="aprt_sub_con  aprt_sub_con_3 aprt_sub_con_4 border ">
+
+
+                <p class="para_4 green_10 "> <img class="icon" src="./images/pin (1).png" alt="">
+                    LiechtensteinklammstraRe 93 A- 5600 Sankt Johann im Pongau </p>
+
+                <br>
+                <br>
+
+                <p class="para_4 green_10 "> <img class="icon" src="./images/phone-call.png" alt=""> +43(0)6412 I 4554
+                </p>
+
+                <br>
+                <br>
+
+
+                <p class="para_4 green_10 "> <img class="icon" src="./images/arroba (1).png" alt="">
+                    info@haus-rohrmoser.at </p>
+
+
+            </div>
+
+
+
+
+
+            <div class="aprt_sub_con  aprt_sub_con_3 aprt_sub_con_4 border ">
+
+
+                <button class="email_send_button"> <img class="icon" src="./images/arroba (2).png" alt=""> JETZT ZIMMER
+                    ANFRAGE SENDEN </button>
+
+
+            </div>
+
+
+            <div class="map_div_contact ">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14968.697045692823!2d85.8179029!3d20.2930529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1666184570351!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- contact` -->
+
+
+
+
+
+
+    <footer class="fotter">
+
+
+
+        <div class="wrap footer_con">
+
+            <div class="footer_sub_con">
+                <img class="icon" src="./images/facebook.png" alt="">
+                <img class="icon icon_2" src="./images/instagram.png" alt="">
+            </div>
+            <div class="footer_sub_con">
+                <p class="white"> copyright @Rohrmoser Appartements </p>
+            </div>
+            <div class="footer_sub_con">
+
+
+                <a class="btn_footer" href="#">IMPRESSUM </a>
+                <a class="btn_footer" href="#">DATENSCHUTZ </a>
+
+            </div>
+
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/main.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>
