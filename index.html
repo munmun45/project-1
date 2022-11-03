@@ -8,6 +8,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
@@ -86,7 +89,9 @@
                     <ul>
 
                         <li><a href="#">HOME</a></li>
-                        <li><a href="javascript:mov_nav(0 , '100px')">APARTMENT </a>  <img onclick="mov_nav(0 , '100px')" class="mob_more_option_btn" class="arro_rot" src="./images/arrow-down-sign-to-navigate.png" alt=""> </li>
+                        <li><a href="javascript:mov_nav(0 , '100px')">APARTMENT </a> <img onclick="mov_nav(0 , '100px')"
+                                class="mob_more_option_btn" class="arro_rot"
+                                src="./images/arrow-down-sign-to-navigate.png" alt=""> </li>
                         <!-- <li><a href="#">APARTMENT </a> <img class="mob_more_option_btn" src="" alt=""> </li> -->
 
                         <ol class="more_option_mob ">
@@ -99,11 +104,15 @@
 
 
 
-                        <li><a href="javascript:mov_nav(1 , '250px')">GOOD TO KNOW</a> <img onclick="mov_nav(1 , '250px')"class="mob_more_option_btn" class="arro_rot" src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
+                        <li><a href="javascript:mov_nav(1 , '250px')">GOOD TO KNOW</a> <img
+                                onclick="mov_nav(1 , '250px')" class="mob_more_option_btn" class="arro_rot"
+                                src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
 
                         <ol class="more_option_mob">
 
-                            <li><a href="javascript:mov_nav(2 , '150px' )">BEI UNS IM WINTER </a> <img onclick="mov_nav(2 , '150px' )"class="mob_more_option_btn" class="arro_rot" src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
+                            <li><a href="javascript:mov_nav(2 , '150px' )">BEI UNS IM WINTER </a> <img
+                                    onclick="mov_nav(2 , '150px' )" class="mob_more_option_btn" class="arro_rot"
+                                    src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
 
                             <ol class="more_option_mob">
 
@@ -115,7 +124,9 @@
 
                             </ol>
 
-                            <li><a href="javascript:mov_nav(3 , '150px' )">BEI UNS IM SOMMER </a> <img onclick="mov_nav(3 , '150px' )"class="mob_more_option_btn" class="arro_rot" src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
+                            <li><a href="javascript:mov_nav(3 , '150px' )">BEI UNS IM SOMMER </a> <img
+                                    onclick="mov_nav(3 , '150px' )" class="mob_more_option_btn" class="arro_rot"
+                                    src="./images/arrow-down-sign-to-navigate.png" alt=""></li>
 
                             <ol class="more_option_mob">
 
@@ -153,13 +164,62 @@
 
     <!-- pop image start -->
 
-    <div id="pop_img" class="pop_img" >
+
+    <div id="pop_img" class="pop_img">
 
         <img onclick="close_pop()" class="close_popup_btn" src="./images/delete.png" alt="">
 
-        <img id="fill_img_pop" class="fill_img_pop" src="" alt="">
 
+
+
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+            data-bs-interval="false">
+
+
+            <div class="carousel-inner" id="">
+
+                <div class=" carousel-item ">
+                    <img src="./images/skione.jpg" alt="">
+                </div>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+                    <div id="fill_img_pop" class="carousel-inner">
+
+
+
+                    </div>
+
+
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+
+
+
+                <!-- <img id="c" class="fill_img_pop" src="" alt=""> -->
+
+
+
+            </div>
+        </div>
     </div>
+
+
+
+
+
+
 
     <!-- pop image end -->
 
@@ -187,7 +247,7 @@
             <img src="./images/slider/slider-3.jpg" class="slider_img">
         </div>
         <div class="mySlides fade">
-            <img  src="./images/slider/slider-4.jpg" class="slider_img">
+            <img src="./images/slider/slider-4.jpg" class="slider_img">
         </div>
 
 
@@ -236,11 +296,13 @@
 
             <div class="aprt_sub_con border">
                 <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
-                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad
+                    corporis nihil.
                     Voluptatem repellendus dolorum odit.</p>
 
                 <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
-                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad
+                    corporis nihil.
                     Voluptatem repellendus dolorum odit.</p>
 
             </div>
@@ -266,28 +328,28 @@
             <div class="image_slider_con" id="scroll_image_2">
 
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/skione.jpg" alt="">
+                    <img onclick="popup_image_1(1);" src="./images/skione.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/sommerfunf.jpg" alt="">
+                    <img onclick="popup_image_1(2);" src="./images/sommerfunf.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/header.jpg" alt="">
+                    <img onclick="popup_image_1(3);" src="./images/header.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/sommervier.jpg" alt="">
+                    <img onclick="popup_image_1(4);" src="./images/sommervier.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                    <img onclick="popup_image_1(5);" src="./images/sommereins.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/slider_2.jpg" alt="">
+                    <img onclick="popup_image_1(6);" src="./images/slider_2.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/slider_1.jpg" alt="">
+                    <img onclick="popup_image_1(7);" src="./images/slider_1.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                    <img onclick="popup_image_1(8);" src="./images/sommereins.jpg" alt="">
                 </div>
 
 
@@ -337,11 +399,13 @@
 
             <div class="aprt_sub_con border">
                 <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
-                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad
+                    corporis nihil.
                     Voluptatem repellendus dolorum odit.</p>
 
                 <p class="para_2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
-                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad
+                    corporis nihil.
                     Voluptatem repellendus dolorum odit.</p>
 
             </div>
@@ -367,28 +431,28 @@
             <div class="image_slider_con" id="scroll_image">
 
                 <div class="img_con">
-                    <img onclick="popup_image(src);"  src="./images/skione.jpg" alt="">
+                    <img onclick="popup_image_2(1);" src="./images/skione.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);"  src="./images/sommerfunf.jpg" alt="">
+                    <img onclick="popup_image_2(2);" src="./images/sommerfunf.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);"  src="./images/header.jpg" alt="">
+                    <img onclick="popup_image_2(3);" src="./images/header.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);"  src="./images/sommervier.jpg" alt="">
+                    <img onclick="popup_image_2(4);" src="./images/sommervier.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img  onclick="popup_image(src);" src="./images/sommereins.jpg" alt="">
+                    <img onclick="popup_image_2(5);" src="./images/sommereins.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);"  src="./images/slider_2.jpg" alt="">
+                    <img onclick="popup_image_2(6);" src="./images/slider_2.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img  onclick="popup_image(src);" src="./images/slider_1.jpg" alt="">
+                    <img onclick="popup_image_2(7);" src="./images/slider_1.jpg" alt="">
                 </div>
                 <div class="img_con">
-                    <img onclick="popup_image(src);"  src="./images/sommereins.jpg" alt="">
+                    <img onclick="popup_image_2(8);" src="./images/sommereins.jpg" alt="">
                 </div>
 
 
@@ -426,15 +490,21 @@
 
             <div class="apart_con " style="margin-top: 30px;">
 
-                <p class="para_3 white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid quos!
-                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad corporis nihil.
+                <p class="para_3 white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ab aliquid
+                    quos!
+                    Adipisci, accusamus aperiam repellat eligendi eveniet eum iure, vero officia quia ad
+                    corporis nihil.
                     Voluptatem repellendus dolorum odit.
                 </p>
 
-                <p class="para_3 white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, labore
-                    provident iusto odio distinctio officiis molestiae architecto sit omnis eos ab dolor a porro animi
-                    expedita vel doloremque asperiores ut! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Aliquam libero, alias, dolores iure debitis ea, sed illum ad deserunt exercitationem temporibus quos
+                <p class="para_3 white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium,
+                    labore
+                    provident iusto odio distinctio officiis molestiae architecto sit omnis eos ab dolor a porro
+                    animi
+                    expedita vel doloremque asperiores ut! Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Aliquam libero, alias, dolores iure debitis ea, sed illum ad deserunt exercitationem
+                    temporibus quos
                     eveniet cum repudiandae ratione quas nesciunt placeat culpa.
                 </p>
 
@@ -475,7 +545,8 @@
 
         <div class="apart_con border" style="margin-top: 30px;">
 
-            <p class="para ">Die Freiheit und Ruhe in den Bergen geniefen: Egal ob allein, zu zweit oder mit der ganzen
+            <p class="para ">Die Freiheit und Ruhe in den Bergen geniefen: Egal ob allein, zu zweit oder mit der
+                ganzen
                 Familie —
                 hier finden Sie den richtigen Wanderweg fiir jedermann!
             </p>
@@ -513,7 +584,7 @@
             </div>
 
 
-            <div class="aprt_sub_con_2"     >
+            <div class="aprt_sub_con_2">
 
                 <img onclick="popup_image(src)" class="map_img" src="./images/map/mp-1.jpg" alt="">
 
@@ -617,9 +688,9 @@
             </div>
 
 
-            <div class="aprt_sub_con_2"     >
+            <div class="aprt_sub_con_2">
 
-                <img  onclick="popup_image(src)" class="map_img" src="./images/map/mp-2.jpg" alt="">
+                <img onclick="popup_image(src)" class="map_img" src="./images/map/mp-2.jpg" alt="">
 
             </div>
 
@@ -701,9 +772,9 @@
             </div>
 
 
-            <div class="aprt_sub_con_2"     >
+            <div class="aprt_sub_con_2">
 
-                <img  onclick="popup_image(src)" class="map_img" src="./images/map/mp-3.jpg" alt="">
+                <img onclick="popup_image(src)" class="map_img" src="./images/map/mp-3.jpg" alt="">
 
             </div>
 
@@ -741,9 +812,12 @@
             <p class="para_3 ">
 
 
-                Von der Almhiitte ftihrt ein Steig weiter hinein ins Igltal - am Ende des Talkessels erreicht man nach
-                leichter Rechtsschwenkung einen sanften Sattel mit eingestreuten Felsbrocken - vom Sattel erreicht
-                man nach kurzem Anstieg den markierten Steig, der zum Gipfel des Heukarecks fiihrt. Gehzeit von der
+                Von der Almhiitte ftihrt ein Steig weiter hinein ins Igltal - am Ende des Talkessels erreicht
+                man nach
+                leichter Rechtsschwenkung einen sanften Sattel mit eingestreuten Felsbrocken - vom Sattel
+                erreicht
+                man nach kurzem Anstieg den markierten Steig, der zum Gipfel des Heukarecks fiihrt. Gehzeit von
+                der
                 Igltalalm bis zum Gipfel ca. 2 Stunden. Zuriick folgen Sie dem gleichen Weg.
 
 
@@ -800,7 +874,8 @@
                 </p>
 
                 <p class="para white">
-                    In St. Johann im Pongau finden Sie mehrere Bademdglichkeiten je nach Lust und Laune sowie das
+                    In St. Johann im Pongau finden Sie mehrere Bademdglichkeiten je nach Lust und Laune sowie
+                    das
                     Wetter.
                 </p>
 
@@ -839,7 +914,7 @@
 
 
                 <div class="aprt_sub_con aprt_sub_con_4 ">
-                    <img  onclick="popup_image(src)"  class="apart_image_2" src="./images/sommereins.jpg" alt="">
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/sommereins.jpg" alt="">
                 </div>
 
             </div>
@@ -881,7 +956,7 @@
 
 
                 <div class="aprt_sub_con aprt_sub_con_4 ">
-                    <img onclick="popup_image(src)"  class="apart_image_2" src="./images/sommerfunf.jpg" alt="">
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/sommerfunf.jpg" alt="">
                 </div>
 
             </div>
@@ -920,20 +995,25 @@
             </h3>
 
             <p class="para ">
-                Erkunden Sie im gernalichen Tempo die bestens markierten Radwege, die quer durch die Region fiihren.
+                Erkunden Sie im gernalichen Tempo die bestens markierten Radwege, die quer durch die Region
+                fiihren.
             </p>
 
             <p class="para ">
-                St. Johann hat alles, was eine ordentliche Mountainbike-Region braucht. Auf Sie warten zahlreiche
-                ausgeschilderte Mountainbike-Routen. Der insgesamt 300 km Lange Tauernradweg, der direkt an unserem Haus
-                vorbeifuhrt, zahlt zu den schonsten Radwegen in Osterreich und fiihrt von Krimml ither St. Johann und
+                St. Johann hat alles, was eine ordentliche Mountainbike-Region braucht. Auf Sie warten
+                zahlreiche
+                ausgeschilderte Mountainbike-Routen. Der insgesamt 300 km Lange Tauernradweg, der direkt an
+                unserem Haus
+                vorbeifuhrt, zahlt zu den schonsten Radwegen in Osterreich und fiihrt von Krimml ither St.
+                Johann und
                 Salzburg nach Passau!
             </p>
 
 
             <p class="para ">
 
-                Unter den 26 ausgeschilderten Radtouren gibt es ganz sicher etwas fur jedermann —von Genussradler und
+                Unter den 26 ausgeschilderten Radtouren gibt es ganz sicher etwas fur jedermann —von
+                Genussradler und
                 Farnilien bis hin zu anspruchsvolle Radfahrer die ihre Krafte an den Hohenmetern messen mochten.
             </p>
 
@@ -994,9 +1074,9 @@
             </div>
 
 
-            <div class="aprt_sub_con_2"     >
+            <div class="aprt_sub_con_2">
 
-                <img onclick="popup_image(src)"  class="map_img" src="./images/map/mp-4.jpg" alt="">
+                <img onclick="popup_image(src)" class="map_img" src="./images/map/mp-4.jpg" alt="">
 
             </div>
 
@@ -1011,7 +1091,8 @@
             <p class="para ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptates voluptatem
                 dignissimos <br>
-                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur adipisicing
+                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur
+                adipisicing
                 elit.
                 Reprehenderit, iste? Nam co
             </p>
@@ -1019,7 +1100,8 @@
             <p class="para ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptates voluptatem
                 dignissimos <br>
-                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur adipisicing
+                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur
+                adipisicing
                 elit.
                 Reprehenderit, iste? Nam co
             </p>
@@ -1053,9 +1135,9 @@
             </div>
 
 
-            <div class="aprt_sub_con_2"     >
+            <div class="aprt_sub_con_2">
 
-                <img onclick="popup_image(src)"  class="map_img" src="./images/map/mp-5.jpg" alt="">
+                <img onclick="popup_image(src)" class="map_img" src="./images/map/mp-5.jpg" alt="">
 
             </div>
 
@@ -1070,7 +1152,8 @@
             <p class="para ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptates voluptatem
                 dignissimos <br>
-                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur adipisicing
+                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur
+                adipisicing
                 elit.
                 Reprehenderit, iste? Nam co
             </p>
@@ -1078,7 +1161,8 @@
             <p class="para ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptates voluptatem
                 dignissimos <br>
-                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur adipisicing
+                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur
+                adipisicing
                 elit.
                 Reprehenderit, iste? Nam co
             </p>
@@ -1113,9 +1197,9 @@
             </div>
 
 
-            <div class="aprt_sub_con_2"     >
+            <div class="aprt_sub_con_2">
 
-                <img onclick="popup_image(src)"  class="map_img" src="./images/map/mp-6.jpg" alt="">
+                <img onclick="popup_image(src)" class="map_img" src="./images/map/mp-6.jpg" alt="">
 
             </div>
 
@@ -1130,7 +1214,8 @@
             <p class="para ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptates voluptatem
                 dignissimos <br>
-                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur adipisicing
+                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur
+                adipisicing
                 elit.
                 Reprehenderit, iste? Nam co
             </p>
@@ -1138,7 +1223,8 @@
             <p class="para ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam eius voluptates voluptatem
                 dignissimos <br>
-                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur adipisicing
+                maxime, id suscipit ad minima laudantium quae? Lorem ipsum dolor sit amet consectetur
+                adipisicing
                 elit.
                 Reprehenderit, iste? Nam co
             </p>
@@ -1180,7 +1266,8 @@
 
 
                 <p class="para white">
-                    Trailrunning bedeutet Laufen in der freien Natur und muss nicht unbedingt auf einem Berggipfel
+                    Trailrunning bedeutet Laufen in der freien Natur und muss nicht unbedingt auf einem
+                    Berggipfel
                     ausgetlibt werden, aber hugelige Reliefs und positive Hohenmeter gehoren dazu.
                 </p>
 
@@ -1241,7 +1328,7 @@
     <section class="wrap map_group">
 
         <img class="apart_image_2" style="height: auto;" src="./images/d/d-1.jpeg" alt="">
-        
+
 
         <!-- <div class="map_group_con">
             <img class="apart_image_2" src="./images/d/d-1.jpg" alt="">
@@ -1291,8 +1378,10 @@
 
 
                 <p class="para white">
-                    Egal ob in der Stadt oder in den Bergen, es gibt fur kleine und groRe Entdecker jede Menge Abenteuer
-                    zu erleben.ln den Sommerferien gibt es ein spezielles Ferienprogramm fur Kinder — von Kinder-Yoga
+                    Egal ob in der Stadt oder in den Bergen, es gibt fur kleine und groRe Entdecker jede Menge
+                    Abenteuer
+                    zu erleben.ln den Sommerferien gibt es ein spezielles Ferienprogramm fur Kinder — von
+                    Kinder-Yoga
                     Ober Naturerlebnissen im Wald und am Bauernhof bis zum Fotoworkshop.
 
                 </p>
@@ -1307,18 +1396,20 @@
 
             <h2 class="main_heading_2 white title_main">ERLEBNISPARK „GEISTERBERG" </h2>
 
-            <div class="apart_con m-0   m-33"  >
+            <div class="apart_con m-0   m-33">
 
                 <div class="aprt_sub_con_2  padding_24 " style="padding: 0px 0px; margin: 0px;">
 
 
                     <p class="para_4 white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores quos,
+                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores
+                        quos,
                         consectetur autem voluptate recusandae culpa. Ullam, amet? Doloribus?</p>
 
 
                     <p class="para_4 white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores quos,
+                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores
+                        quos,
                         consectetur autem voluptate recusandae culpa. Ullam, amet? Doloribus?</p>
 
                 </div>
@@ -1326,7 +1417,7 @@
 
                 <div class="aprt_sub_con_2" style=" margin: 0px;">
 
-                    <img onclick="popup_image(src)"  class="apart_image_2" src="./images/slider_1.jpg" alt="">
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/slider_1.jpg" alt="">
 
                 </div>
 
@@ -1336,18 +1427,20 @@
 
             <h2 class="main_heading_2 white title_main">ABENTEUERSPIELPLATZ ALPENDORF </h2>
 
-            <div class="apart_con m-0   m-33"  >
+            <div class="apart_con m-0   m-33">
 
                 <div class="aprt_sub_con_2  padding_24 " style="padding: 0px 0px; margin: 0px;">
 
 
                     <p class="para_4 white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores quos,
+                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores
+                        quos,
                         consectetur autem voluptate recusandae culpa. Ullam, amet? Doloribus?</p>
 
 
                     <p class="para_4 white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores quos,
+                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores
+                        quos,
                         consectetur autem voluptate recusandae culpa. Ullam, amet? Doloribus?</p>
 
                 </div>
@@ -1355,7 +1448,7 @@
 
                 <div class="aprt_sub_con_2" style=" margin: 0px;">
 
-                    <img onclick="popup_image(src)"  class="apart_image_2" src="./images/slider_2.jpg" alt="">
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/slider_2.jpg" alt="">
 
                 </div>
 
@@ -1365,18 +1458,20 @@
 
             <h2 class="main_heading_2 white title_main">JAGEN WIE ROBIN HOOD </h2>
 
-            <div class="apart_con m-0 m-33 "  >
+            <div class="apart_con m-0 m-33 ">
 
                 <div class="aprt_sub_con_2   padding_24" style="padding: 0px 0px; margin: 0px;">
 
 
                     <p class="para_4 white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores quos,
+                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores
+                        quos,
                         consectetur autem voluptate recusandae culpa. Ullam, amet? Doloribus?</p>
 
 
                     <p class="para_4 white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
-                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores quos,
+                        distinctio animi odit officiis ex cupiditate soluta! Illum quae natus fugiat maiores
+                        quos,
                         consectetur autem voluptate recusandae culpa. Ullam, amet? Doloribus?</p>
 
                 </div>
@@ -1384,7 +1479,7 @@
 
                 <div class="aprt_sub_con_2" style=" margin: 0px;">
 
-                    <img onclick="popup_image(src)"  class="apart_image_2" src="./images/sommervier.jpg" alt="">
+                    <img onclick="popup_image(src)" class="apart_image_2" src="./images/sommervier.jpg" alt="">
 
                 </div>
 
@@ -1432,7 +1527,8 @@
                 <br>
                 <br>
 
-                <p class="para_4 green_10 "> <img class="icon" src="./images/phone-call.png" alt=""> +43(0)6412 I 4554
+                <p class="para_4 green_10 "> <img class="icon" src="./images/phone-call.png" alt=""> +43(0)6412
+                    I 4554
                 </p>
 
                 <br>
@@ -1452,16 +1548,20 @@
             <div class="aprt_sub_con  aprt_sub_con_3 aprt_sub_con_4 border ">
 
 
-                <button class="email_send_button"> <img class="icon" src="./images/arroba (2).png" alt=""> JETZT ZIMMER
+                <button class="email_send_button"> <img class="icon" src="./images/arroba (2).png" alt=""> JETZT
+                    ZIMMER
                     ANFRAGE SENDEN </button>
 
 
             </div>
 
 
-            <div class="map_div_contact " >
+            <div class="map_div_contact ">
 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14968.697045692823!2d85.8179029!3d20.2930529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1666184570351!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14968.697045692823!2d85.8179029!3d20.2930529!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1666184570351!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
             </div>
 
@@ -1510,24 +1610,11 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="./js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 
 

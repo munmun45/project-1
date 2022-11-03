@@ -794,6 +794,7 @@ body {
   background-color: #8b9705;
   padding: 10px;
   border-radius: 10px;
+  z-index: 100;
 }
 
 .fill_img_pop {

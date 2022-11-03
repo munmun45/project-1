@@ -86,20 +86,123 @@ function scroll_images_js_2() {
 }
 
 
+
+
+// popup
+
+
+
 let pop_img = document.getElementById("pop_img");
 let fill_img_pop = document.getElementById("fill_img_pop");
 
 
-function popup_image(src) {
+function popup_image_1(src) {
+
     pop_img.style.height = "100vh";
-    fill_img_pop.src = "";
-    fill_img_pop.src = src;
+
+
+    if(src == 1){
+
+        fill_img_pop.innerHTML = '<div class="carousel-item   active  "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item     "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+
+
+    }else if(src == 2)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item   active   "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    
+    }else if(src == 3)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item   active  "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 4)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     active"> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 5)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item    active "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 6)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item  active   "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 7)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item    active "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 8)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item    active  "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+
+    
 }
+
+
+
+
+
+
+function popup_image_2(src) {
+
+    pop_img.style.height = "100vh";
+
+
+    if(src == 1){
+
+        fill_img_pop.innerHTML = '<div class="carousel-item   active  "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item     "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+
+
+    }else if(src == 2)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item   active   "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    
+    }else if(src == 3)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item   active  "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 4)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     active"> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 5)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item    active "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 6)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item  active   "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 7)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item    active "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+    else if(src == 8)
+    {
+        fill_img_pop.innerHTML = '<div class="carousel-item "> <img src="./images/skione.jpg" class="d-block w-100" alt="..."> </div>        <div class="carousel-item      "> <img src="./images/sommerfunf.jpg" class="d-block w-100" alt="..."> </div>     <div class="carousel-item     "> <img src="./images/header.jpg" class="d-block w-100" alt="..."> </div>              <div class="carousel-item     "> <img src="./images/sommervier.jpg" class="d-block w-100" alt="..."> </div>             <div class="carousel-item     "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>                    <div class="carousel-item     "> <img src="./images/slider_2.jpg" class="d-block w-100" alt="..."> </div>                  <div class="carousel-item     "> <img src="./images/slider_1.jpg" class="d-block w-100" alt="..."> </div>                 <div class="carousel-item    active  "> <img src="./images/sommereins.jpg" class="d-block w-100" alt="..."> </div>';
+    }
+
+    
+}
+
+
+
+
+
+
+
 
 function close_pop() {
     pop_img.style.height = "0vh";
     
 }
+
+
+
+
+
+
+
 
 
 
@@ -128,6 +231,11 @@ function mov_nav(value_ , size_) {
 
     
 }
+
+
+
+
+
 
 
 
