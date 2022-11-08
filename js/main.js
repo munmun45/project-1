@@ -54,6 +54,10 @@ function showSlides(n) {
     dots[slideIndex - 1].className += " active";
 }
 
+
+
+
+
 let scroll_image = document.getElementById("scroll_image");
 let scroll_image_2 = document.getElementById("scroll_image_2");
 
@@ -213,12 +217,14 @@ let arro_rot = document.getElementsByClassName("arro_rot");
 let value_click = 0 ;
 
 function mov_nav(value_ , size_) {
+
     if(value_click == 0)
     {
         more_option_mob[0].style.height="0px";
-        // more_option_mob[1].style.height="0px";
+        more_option_mob[1].style.height="0px";
         more_option_mob[2].style.height="0px";
-        more_option_mob[3].style.height="0px";
+        // more_option_mob[3].style.height="0px";
+
         more_option_mob[value_].style.height = size_;
         // arro_rot[value_].style.rotate = "90deg";
         value_click = 1;
